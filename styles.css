@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-one {
+    /* border: 2px solid blue; */
+    display: flex;
+    padding: 10px 48px ;
+}
+
+.header-one-left {
+    /* border: 2px solid orange; */
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-one-left, .header-one-right {
+    display: flex;
+}
+
+.header-one-right {
+    /* border: 2px solid purple; */
+    flex: auto;
+    font-size: 12px;
+   
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #bcbcbc;
+
+}
+
+ul {
+    display: flex;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    gap: 25px;
+}
+
+.header-two {
+    /* border: 2px solid green; */
+    display: flex;
+    padding: 48px 48px;
+    
+}
+
+.header-two-left {
+    /* border: 2px solid blue; */
+    flex: 50%;
+}
+
+.header-two-right {
+    /* border: 2px solid orange; */
+    flex: 50%;
+}
+
+
+.header-two-right, img {
+    max-width: 100%;
+}
+
+.header-two-left > button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 4px 20px;
+}
+
+.header-two-left-top {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: auto;
+}
+
+.header-two-left-bottom {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 40px;
+    /* border: 2px solid orange; */
+    padding: 20px 0px;
+}
+
+.second {
+    border: 2px solid red;
+    padding: 0px 0px 30px;
+}
+
+.second-one {
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    /* border: 2px solid red; */
+}
+
+.second-two {
+    display: flex;
+    margin: 10px 48px;
+    text-align: center;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    gap: 35px;
+}
+
+.box {
+    border: 2px solid black;
+    width: 95px;
+    height: 95px;
+    border-radius: 20px;
+    border-color: #3882F6;
+    }
+
+.under-text {
+    /* border: 2px solid red; */
+    width: 95px;
+    font-size: 12px;
+}
+
+.third {
+    border: 2px solid blue;
+    background-color: #E5E7EB;
+
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+}
