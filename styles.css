@@ -138,7 +138,7 @@ ul {
 .third {
     /* border: 2px solid blue; */
     background-color: #E5E7EB;
-    padding: 40px 200px;
+    padding: 40px 250px;
 
 }
 
@@ -146,6 +146,7 @@ ul {
     font-size: 25px;
     color: #1F2937;
     font-style: italic;
+    font-weight: 100;
 }
 
 .quote-author {
@@ -194,4 +195,16 @@ ul {
 .subtext {
     color: white;
     font-size: 12px;
+}
+
+.footer {
+    /* border: 2px solid green; */
+    background-color: #1F2937;
+    padding: 25px 0px;
+}
+
+.copyright {
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 10px;
 }
